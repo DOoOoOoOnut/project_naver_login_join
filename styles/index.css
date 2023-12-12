@@ -1,0 +1,35 @@
+.log_in {
+    border: 1px solid #dae1e6;
+    background-color: #f7f9fa;
+    width: 350px; height: 135px;
+    padding: 16px 16px 12px;
+    margin: 100px auto;
+}
+.log_in p {
+    font-size: 0.75rem;
+    /* letter-spacing: -1.7; */
+}
+.log_in .log_in_box {
+    background-color:#19ce60;
+    color: #fff; font-size: 1.063rem; font-weight: 700;
+    padding: 15px 0;
+    margin: 16px 0 12px;
+    display: block;
+    text-align: center;
+}
+.log_in .btm {
+    display: flex;
+    justify-content: space-between;
+}
+.log_in .btm .btm_left {
+    font-size: 0.75rem;
+    display: flex;
+}
+.log_in .btm .btm_left > a {
+    font-size: 0.75rem;
+    display: block;
+}
+.log_in .btm > a {
+    font-size: 0.75rem;
+    display: block;
+}
