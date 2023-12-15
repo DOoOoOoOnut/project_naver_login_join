@@ -2,7 +2,7 @@
     border: 1px solid #dae1e6;
     background-color: #f7f9fa;
     width: 350px; height: 135px;
-    padding: 16px 16px 12px;
+    padding: 12px 16px 12px;
     margin: 100px auto;
 }
 .log_in p {
@@ -11,7 +11,7 @@
 }
 .log_in .log_in_box {
     background-color:#19ce60;
-    color: #fff; font-size: 1.063rem; font-weight: 700;
+    color: #fff; font-size: 1.063rem; font-weight: 800;
     padding: 15px 0;
     margin: 16px 0 12px;
     display: block;
@@ -28,6 +28,7 @@
 .log_in .btm .btm_left > a {
     font-size: 0.75rem;
     display: block;
+    margin-right: 5px;
 }
 .log_in .btm > a {
     font-size: 0.75rem;
