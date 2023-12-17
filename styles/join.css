@@ -1,0 +1,78 @@
+/* 언어설정 가리기, 배경색 */
+header #lang_frm {display: none;}
+body {background-color: #f5f6f7;}
+/* 메인 */
+main {display: flex; justify-content: center;}
+main #join_frm {}
+main #join_frm fieldset {}
+main #join_frm fieldset legend {}
+main #join_frm fieldset dl {width: 460px;}
+main #join_frm fieldset dl dt {
+    font-weight: 700; font-size: 0.875rem;
+    margin-bottom: 10px;}
+main #join_frm fieldset dl dt span {font-size: 0.875rem;}
+main #join_frm fieldset dl dd {}
+main #join_frm fieldset dl dd input {
+    background-color: #fff; padding: 16px; margin-bottom: 10px;
+    border: 1px solid #eee;
+}
+/* 개별 */
+/* 아이디, 비번, 이름 */
+main #join_frm fieldset dl dd:nth-child(2) {
+    background-color: #fff; padding: 6px; margin-bottom: 10px;
+    border: 1px solid #eee;}
+main #join_frm fieldset dl dd .user_id {
+    width: 75%; border: none; padding: 6px;
+}
+main #join_frm fieldset dl dd .user_id span {padding-right: 5px;}
+main #join_frm fieldset dl dd .user_pwd {width: 100%;}
+main #join_frm fieldset dl dd .user_pwd_chk {width: 100%;}
+main #join_frm fieldset dl dd .user_name {width: 100%;}
+/* 생년월일 */
+main #join_frm fieldset dl .user_birth {
+    display: flex; justify-content: space-between;
+}
+main #join_frm fieldset dl .user_birth .birth_year {
+    width: calc(100% / 3 - 2px);
+}
+main #join_frm fieldset dl .user_birth #birth_month {
+    background-color: #fff;
+    width: calc(100% / 3 - 2px); height: 52.53px;/* ?? */
+}
+main #join_frm fieldset dl .user_birth .birth_day {width: calc(100% / 3 - 2px);}
+/* 성별 */
+main #join_frm fieldset dl dd #gender {
+    width: 100%; padding: 16px;
+    background-color: #fff; border: 1px solid #eee;
+    margin-bottom: 10px;
+}
+main #join_frm fieldset dl dd #gender option {}
+/* 이메일 */
+main #join_frm fieldset dl dd .email {width: 100%;}
+/* 휴대전화 */
+main #join_frm fieldset dl .phone {}
+main #join_frm fieldset dl .phone p {}
+main #join_frm fieldset dl .phone p .phone_nation {
+    width: 100%; padding: 16px;
+    background-color: #fff; border: 1px solid #eee;
+    margin-bottom: 10px;
+}
+main #join_frm fieldset dl .phone p .phone_nation option {}
+main #join_frm fieldset dl .phone p .phone_number {
+    width: 73%;
+}
+main #join_frm fieldset dl .phone p button {
+    background-color: #03c75a; color: #fff;
+    font-size: 0.75rem;
+    width: 25%; padding: 16px;
+    float: right;
+}
+main #join_frm fieldset dl dd p .auth_code {
+    width: 100%; background-color: #eee;}
+/* 가입버튼 */
+main #join_frm fieldset .join_btn {}
+main #join_frm fieldset .join_btn button {
+    width: 100%; height: 70px;
+    background-color: #03c75a; color: #fff;
+    font-size: 1.2rem; font-weight: 700; 
+}

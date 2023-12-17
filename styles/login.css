@@ -1,0 +1,60 @@
+body {background-color: #f5f6f7;}
+main {
+    width: 768px; margin: 0 auto; 
+    display: flex; flex-flow: column nowrap; 
+    text-align: center;
+}
+main #login_frm {
+    display: flex; justify-content: center; 
+}
+main #login_frm fieldset {
+    width: 460px;
+    padding-bottom: 20px; margin-bottom: 20px;
+    border-bottom: 1px solid #aaa;
+}
+main #login_frm fieldset p {
+}
+main #login_frm fieldset p .user_id {
+    padding: 20px 15px; border: 1px solid #ccc;
+    margin-bottom: 10px; width: 100%;
+    background-color: #fff;
+}
+main #login_frm fieldset p .user_pwd {
+    padding: 20px 15px; border: 1px solid #ccc; 
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+main #login_frm fieldset p .login_btn {
+    background-color: #03c75a;  color: #fff;
+    padding: 20px 15px; width: 100%; 
+    margin-bottom: 10px;
+}
+/* 로그인상태 유지, IP보안, 일회용 로그인 */
+main #login_frm fieldset .btm {
+    display: flex; justify-content: space-between;}
+main #login_frm fieldset .btm .btm_left {}
+main #login_frm fieldset .btm .btm_left .auto_login_chk {}
+main #login_frm fieldset .btm .btm_left span {}
+main #login_frm fieldset .btm .security_onetime {}
+main #login_frm fieldset .btm .security_onetime a {}
+main #login_frm fieldset .btm .security_onetime a:last-child {
+    text-decoration: underline;
+}
+main #login_frm fieldset .btm .security_onetime a:last-child::before {
+    content:''; display: inline-block;
+    width: 1px; height:8px; background-color: #aaa;
+    margin: 0 10px 0 3px; 
+}
+main #login_frm fieldset .btm .security_onetime a span {
+    color: #03c75a; font-weight: 800;
+}
+/* 아이디찾기, 비번찾기, 회원가입 */
+main .search_sign {}
+main .search_sign a {}
+main .search_sign a::after {
+    content:''; display: inline-block;
+    width: 1px; height:12px; background-color: #aaa;
+    margin: 0px 10px 0 7px; 
+}
+main .search_sign a:last-child::after {display: none;}

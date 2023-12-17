@@ -1,0 +1,24 @@
+/* 헤더 */
+header {width: 768px; margin: 0 auto; text-align: right;}
+header .lang {display: block;} 
+header .lang #lang_frm {
+    padding: 5px 10px; border: 1px solid #aaa;
+}
+header .lang #lang_frm option {}
+header #logo {text-align: center; margin: 50px 0;}
+header #logo a {}
+header #logo a img {width: 237px;}
+/* 푸터 */
+footer {width: 768px; margin: 0 auto; padding: 50px 0;}
+footer address {text-align: center;}
+footer address #f_laws {
+    margin-bottom: 7px;
+}
+footer address #f_laws a {font-size: 0.75rem;}
+footer address #f_laws a::after {
+    content:''; display: inline-block;
+    width: 1px; height: 10px; background-color: #aaa;
+    margin: 0 10px 0 7px;
+}
+footer address #f_laws a:last-child::after {display: none;}
+footer address #copyright {font-size: 0.75rem;}

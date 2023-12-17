@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버 | 로그인</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+    <header>
+        <div class="lang">
+            <select name="lang" id="lang_frm">
+                <option value="ko">한국어</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+        <h1 id="logo"><a href="./index.html"><img src="./images/Naver_Logotype.svg.png" alt="네이버"></a></h1>
+    </header>
+    <main>
+        <form action="#" method="post" id="login_frm">
+            <fieldset>
+                <legend class="skip">로그인</legend>
+                <p><input type="text" placeholder="아이디" name="user_id" class="user_id"></p>
+                <p><input type="password" placeholder="비밀번호" name="user_pwd" class="user_pwd"></p>
+                <p><button type="submit" class="login_btn">로그인</button></p>
+                <!-- 로그인상태 유지, IP보안, 일회용 로그인 -->
+                <div class="btm">
+                    <div class="btm_left">
+                        <input type="checkbox" name="auto_login_chk" class="auto_login_chk" value="auto_login_chk">
+                        <span>로그인 상태 유지</span>
+                    </div>
+                    <div class="security_onetime">
+                        <a href="#">IP보안<span>ON</span></a>
+                        <a href="#">일회용 로그인</a>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <!-- 아이디찾기, 비번찾기, 회원가입 -->
+        <span class="search_sign">
+            <a href="#">아이디 찾기</a>
+            <a href="#">비밀번호 찾기</a>
+            <a href="./raw.html">회원가입</a>
+        </span>
+    </main>
+    <footer>
+        <address>
+            <div id="f_laws">
+                <a href="#">이용약관</a>
+                <a href="#">개인정보처리방침</a>
+                <a href="#">책임의 한계와 법적고지</a>
+                <a href="#">회원정보 고객센터</a>
+            </div>
+            <p id="copyright">NAVER Copyright © NAVER Corp. All Rights Reserved.</p>
+        </address>
+    </footer>
+</body>
+</html>
