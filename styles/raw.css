@@ -46,11 +46,13 @@ main #law_frm fieldset .raw .contents p {}
 main #law_frm fieldset .raw .raw_title {
     display: flex; justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 main #law_frm fieldset .raw .raw_title .kids {
     padding: 7px 10px; 
     border: 1px solid #08a600; background-color: #fff;
     font-size: 0.75rem; color: #08a600;
+    position: absolute; right: 0; bottom: 12px;
 }
 main #law_frm fieldset .raw .raw_title h2 {}
 main #law_frm fieldset .raw .raw_title h2 input {}
